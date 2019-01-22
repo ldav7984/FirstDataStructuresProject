@@ -7,9 +7,17 @@
 //
 
 #include <iostream>
+//like Swift and Java "import"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+
+int main()
+{
+    std::cout << "Flamingos are pink?\n";
+    //:: is the scope resolution operator,
+    //means the thing on their right belongs to the thing on their left
+    //std means standard library
+    //cout object belongs to the standard libary
+    
+    return 0; //standard "exited successfully" line
 }
